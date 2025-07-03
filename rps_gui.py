@@ -32,7 +32,7 @@ game_images = [rock, paper, scissor]
 
 
 def play(user_choice):
-    result_text.set("")  # Clear previous result
+    result_text.set("")  
     computer_choice = random.randint(0, 2)
 
     user_display.set("You chose:\n" + game_images[user_choice])
